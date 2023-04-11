@@ -1,0 +1,19 @@
+{
+  "name": "notion-database-item-creator",
+  "version": "0.0.1",
+  "description": "Node.js http hook to add an item to a Notion database",
+  "scripts": {
+    "start": "node src/api.js",
+    "dev": "nodemon --watch src src/api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Ludwig <adrian@ludwig.net.pl>",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
